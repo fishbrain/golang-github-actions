@@ -5,9 +5,8 @@ LABEL "com.github.actions.description"="Run staticcheck"
 LABEL "com.github.actions.icon"="terminal"
 LABEL "com.github.actions.color"="purple"
 
-LABEL "repository"="https://github.com/grandcolline/golang-github-actions"
-LABEL "homepage"="https://github.com/grandcolline/golang-github-actions"
-LABEL "maintainer"="grandcolline <grandcolline@gmail.com>"
+LABEL "repository"="https://github.com/fishbrain/golang-github-actions"
+LABEL "homepage"="https://github.com/fishbrain/golang-github-actions"
 
 RUN apt-get update && \
 	apt-get -y install jq && \
